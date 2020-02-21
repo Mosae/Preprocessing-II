@@ -154,6 +154,9 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
+hr {
+  border: 2px dashed gray;
+}
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -171,18 +174,15 @@ img {
 nav {
   display: flex;
   margin-top: 40px;
-  justify-content: space-evenly;
-  /* align-content: flex-end; */
-  width: 59%;
+  justify-content: space-between;
+  width: 100%;
 }
 nav a {
   text-decoration: none;
+  justify-content: flex-start;
   color: black;
   font-size: 2rem;
-}
-nav .logo {
-  display: flex;
-  margin-top: 40px;
+  margin-left: 20px;
 }
 .footer {
   width: 100%;
@@ -196,10 +196,6 @@ nav .logo {
   padding: 20px;
 }
 .home header {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-content: center;
   padding: 20px 0;
 }
 .home .content-section {
