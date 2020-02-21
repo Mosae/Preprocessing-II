@@ -179,7 +179,6 @@ nav {
 }
 nav a {
   text-decoration: none;
-  justify-content: flex-start;
   color: black;
   font-size: 2rem;
   margin-left: 20px;
